@@ -1,0 +1,24 @@
+.page{
+   width : 21cm;
+   height : 29.7cm;
+}
+.bottom{
+	width : 21cm;
+	position:absolute;
+	bottom:0;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 0 1cm 0;
+}
+.invoice{
+	border:none;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color:#f9f9f9;
+}
+@media print {
+	body {-webkit-print-color-adjust: exact;}
+	.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9 !important; 
+}
+}

@@ -1,0 +1,19 @@
+.col-xs-6{width:100%;}
+.col-xs-2{width:30%;margin:0 0 8px;;display:inline-block;}
+.col-xs-2 .search_what{height:22px;}
+.legend{display:none;}
+.products{
+	width:300px;
+}
+.button_box a{
+	float: none;
+	float: none!important;
+	display:block;
+	width:auto;
+	margin:5px;
+}
+select.search_cmp,input.search_cmp{width: 70px;}
+.amount_title{display:none;}
+.amount{display:none;}
+.smart_hidden{display:none;}
+#quotes{}
